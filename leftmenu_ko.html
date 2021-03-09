@@ -121,7 +121,29 @@
             <ul>
                <li><a href="Belgium_ko.jpg" target="content_ko">벨직</a></li>
                <li><a href="Scotland_ko.jpg" target="content_ko">스코트랜드</a></li>
-               <li class='last'><a href="WCF_ko.jpg" target="content_ko">웨스트민스터</a></li>
+               <li class='has-sub'><a href="#"><span>웨스트민스터</span></a>
+                 <ul>
+
+                     <script>
+
+                        var wk = ['웨스트민스터  1', '웨스트민스터  2'];
+
+                     </script>
+
+                     <script>
+
+                       var i=1
+                       while(i<wk.length+1){
+
+                       document.write('<li><a href="WCFKO '+i+'.jpg" target="content_ko">'+wk[i-1]+'</a></li>')
+
+                      i=i+1;
+
+                       }
+
+                      </script>
+                 </ul>
+               </li>
             </ul>
        </li>
 
