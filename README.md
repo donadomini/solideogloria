@@ -1,0 +1,1 @@
+### solideogloria, I'm sorry I'm late to reply. I'm sorry, Please understand that my personal circumstances do not make me a coworker of Coding, at present. I'd like to inform you of following site, hoping it would help you. https://www.youtube.com/channel/UCvc8kv-i5fvFTJBFAk6n1SA
