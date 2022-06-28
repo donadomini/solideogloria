@@ -15,17 +15,38 @@
      a { text-decoration:none }
    </style>
 
+   <style>
+
+   .btn3 {
+
+     width: 90px;
+     height: 21px;
+     border: none;
+     border-radius: 60px;
+     outline: none;
+     background: mistyrose;
+     color: black;
+     cursor: pointer;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+   }
+
+   .btn3:hover {
+     background: rosybrown;
+   }
+
+   </style>
+
 
    <title>Soli Deo Gloria ! Reformed Theology</title>
 
 </head>
 
-<body id="begin">
+<body class="begin">
 
 
 <!-- 1st line begins. -->
 
-<table id="1st">
+<table class="1st">
         <tr>
 
             <td cellpadding=0 width=10%>
@@ -64,7 +85,7 @@
 
 
 
-<div id="2nd">
+<div class="2nd">
 
 <!-- 2nd line begins. -->
 
@@ -74,10 +95,10 @@
 
            <td bgcolor="" align="center" width=10%>
 
-<div id="btn_group">
-              <button id="btn1" onclick="window.location.href='index.html'">← E X I T</button>
-              <button id="btn2" onclick="window.location.href='index_eng.html'">↺ English</button>
-</div>
+
+              <button class="btn3" onclick="window.location.href='index.html'">← 나가기</button>
+              <button class="btn3" onclick="window.location.href='index_eng.html'">↺ English</button>
+
            </td>
 
            <td bgcolor="gainsboro" align="center" valign="middle" width="80%">
@@ -99,13 +120,13 @@
 
 <!-- 3rd line begins. -->
 
-<table  id="3rd" cellpadding=0 border=0>
+<table  class="3rd" cellpadding=0 border=0>
 
         <tr valign=top>
 
         <!-- 드롭 다운 메뉴 루틴 시작 -->
 
-          <td width=10% height="800">
+          <td style="width:10%; height:800px;">
 
              <iframe src="leftmenu_ko.html" name="leftmenu_ko" marginwidth="3" marginheight="3" frameborder="no" scrolling="auto" width="100%" height="100%">
              </iframe>
@@ -114,14 +135,14 @@
 
           <!-- 메뉴 드롭 다운 끝 -->
 
-          <td bgcolor="" align=left width=80%  height="800">
+          <td align=left style="width:80%;  height:800px;">
 
              <iframe src="content_ko.html" name="content_ko" marginwidth="" marginheight="" frameborder="no" scrolling="auto" width="100%" height="100%">
              </iframe>
 
           </td>
 
-          <td align=left width=10%  height="800">
+          <td align=left style="width:10%;  height:800px;">
 
              <iframe src="othersites_ko.html" name="othersites_ko" marginwidth="" marginheight="" frameborder="no" scrolling="auto" width="100%" height="40%">
              </iframe>
