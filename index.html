@@ -1,138 +1,105 @@
-<!-- <!doctype html> -->
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-
-    <title>Soli Deo Gloria !</title>
-
-    <meta charset='utf-8'>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="/x-ico" href="1_icon.ico">
 
-    <style>
-
-       * {
-    /* Reset browser's padding and margin */
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-       }
-
-       .loca {
-         text-align:center;
-         vertical-align:middle;
-         background-color:#;
-         color:blue;
-         margin:0;
-         cellpadding:0;
-         border:0;
-       }
-
-      .btn1 {
-        background-color: mistyrose;
-        border: none;
-        color: white;
-        padding: 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-      }
-
-      .oval {border-radius: 50%;}
-
-      .btn2 {
-        width: 60px;
-        height: 60px;
-        border: none;
-        border-radius: 60px;
-        outline: none;
-        background: mistyrose;
-        color: black;
-        cursor: pointer;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-      }
-
-      .btn2:hover {
-        background: rosybrown;
-      }
-
-    </style>
-
-    <style type="text/css">
-      a { text-decoration:none }
-    </style>
+    <title>Document</title>
 
     <style>
-      #box {
-        background-color: white;
-        color:white;
-        width: 600px;
-        height: 120px;
-      }
+       html,
+       body{
+         margin: 0;
+         padding: 0;
+         background-color: white;
+       }
 
-      #hidden {
-        display: none;
-        background-color: mistyrose;
-        color: white;
-      }
+       .wrap{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+      /* white-space: no-wrap; */
+         text-align: center;
+
+       }
+
+       h1{
+         font-size: 40px;
+         color: blue;
+       }
+
+       #box {
+         position: relative;
+         background-color: white;
+         color:white;
+         width: 600px;
+         height: 280px;
+         margin: 0; /! hidden align center
+         padding: 0; /! hidden align center
+       }
+
+       #hidden {
+         display: none;
+         background-color: white;
+         color: white;
+       }
+
+       .btn{
+         width: 60px;
+         height: 60px;
+         margin: 5px 0;
+         font-size: 15px;
+         border: 5px;
+         padding: 10px 5px;
+         background: mistyrose;
+         color: black;
+         border-radius: 50%;
+         position: relative;
+         cursor: pointer;
+         overflow: hidden;
+       }
+
+       .btn1:hover {background-color: rosybrown;}
+       .btn2:hover {background-color: rosybrown;}
+
     </style>
 
+  </head>
+  <body>
+     <section class="wrap">
+        <h1>Soli Deo gloria !</h1>
+
+        <div id="box">
+
+            <div></div>
+
+            <div id="hidden">
+                <font color="darkyellow">Quid enim mihi est in caelo et a te quid volui super terram (Psa 72:25)</font><br>
+                <font color="black"> 하늘에서는 주 외에 누가 내게 있으리요 땅에서는 주 밖에 나의 사모할 자 없나이다 (시 73:25)</font><br>
+                <font color="blue"> Whom have I in heaven but thee? and there is none upon earth that I desire beside thee (Psa 73:25)</font>
+
+                <font color="darkyellow"> defecit caro mea et cor meum Deus cordis mei et pars mea Deus in aeternum (Psa 72:26)</font><br>
+                <font color="Black"> 내 육체와 마음은 쇠잔하나 하나님은 내 마음의 반석이시요 영원한 분깃이시라 (시 73:26)</font><br>
+                <font color="blue"> My flesh and my heart faileth: but God is the strength of my heart, and my portion for ever (Psa 73:26)</font>
+            </div>
+
+            <div></div>
+
+          </div>
+
+          <script src="hidden.js"></script>
+
+        <div class="btn-area">
+            <button class="btn btn1" onclick="window.location.href='index_ko.html'">Korean</button>
+            <button class="btn btn2" onclick="window.location.href='index_eng.html'">English</button>
 
 
-</head>
-
-<body>
-
-   <table style="width:100%; height:100%;">
-
-           <tr>
-
-               <td align=center style="width:100%; height:70%;">
-
-                 <button class="btn1 oval">
-                   <h1 class="loca">Soli Deo Gloria !</h1>
-                 </button>
-
-                 <div id="box">
-
-                  <!-- <div>Soli Deo Gloria !</div> -->
-
-                  <div id="hidden">
-                      <font color="darkyellow">Quid enim mihi est in caelo et a te quid volui super terram (Psa 72:25)</font><br>
-                      <font color="black"> 하늘에서는 주 외에 누가 내게 있으리요 땅에서는 주 밖에 나의 사모할 자 없나이다 (시 73:25)</font><br>
-                      <font color="blue"> Whom have I in heaven but thee? and there is none upon earth that I desire beside thee (Psa 73:25)</font><br><br>
-
-                      <font color="darkyellow"> defecit caro mea et cor meum Deus cordis mei et pars mea Deus in aeternum (Psa 72:26)</font><br>
-                      <font color="Black"> 내 육체와 마음은 쇠잔하나 하나님은 내 마음의 반석이시요 영원한 분깃이시라 (시 73:26)</font><br>
-                      <font color="blue"> My flesh and my heart faileth: but God is the strength of my heart, and my portion for ever (Psa 73:26)</font>
-                  </div>
-                  <!-- <div>Glory only to God !</div> -->
-                </div>
-
-                <script src="hidden.js"></script>
-
-
-               </td>
-
-           </tr>
-
-           <tr>
-
-               <td align=center style="width:100%; height:100%;">
-
-                    <button class="btn2" onclick="window.location.href='index_ko.html'"><font size=2px>Korean</font></a></button>
-                    <button class="btn2" onclick="window.location.href='index_eng.html'"><font size=2px>English</font></a></button>
-
-               </td>
-
-           </tr>
-   </table>
-
-
-</body>
-</html>
+        </div>
+     </section>
+  </body>
+  </html>
