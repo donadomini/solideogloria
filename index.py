@@ -1,4 +1,13 @@
-<!DOCTYPE html>
+#!python
+
+print("Content-Type: text/html")
+print()
+import cgi, sys, io
+
+sys.stdout=io.TextIOWrapper(sys.stdout.detach(), encoding='utf-8')
+sys.stderr=io.TextIOWrapper(sys.stderr.detach(), encoding='utf-8')
+
+print('''<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -114,3 +123,4 @@
      </section>
   </body>
   </html>
+''')

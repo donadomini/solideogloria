@@ -48,12 +48,12 @@
 #cssmenu > ul > li.active > a,
 #cssmenu > ul > li.open > a {
   color: #eeeeee;
-  background: #ffd4d4;
-  background: -webkit-linear-gradient(#ee5533, #ee6666); <!-- ffd4d4  ffc2c2 -->
-  background: -moz-linear-gradient(#ee5533, #ee6666); <!-- ffd4d4  ffc2c2 -->
-  background: -o-linear-gradient(#ee5533, #ee6666); <!-- ffd4d4  ffc2c2 -->
-  background: -ms-linear-gradient(#ee5533, #ee6666); <!-- ce3100  ffc2c2 -->
-  background: linear-gradient(#ee5533, #ee6666); <!-- ce3100  ffc2c2 -->
+  background: #ff0000;
+  background: -webkit-linear-gradient(#ec7973, #ec8084); <!-- ffd4d4  ffc2c2 -->
+  background: -moz-linear-gradient(#ec7973, #ec8084); <!-- ffd4d4  ffc2c2 -->
+  background: -o-linear-gradient(#ec7973, #ec8084); <!-- ffd4d4  ffc2c2 -->
+  background: -ms-linear-gradient(#ec7973, #ec8084); <!-- ce3100  ffc2c2 -->
+  background: linear-gradient(#ec7973, #ec8084); <!-- ce3100  ffc2c2 -->
 }
 #cssmenu > ul > li.open > a {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.15);
