@@ -3,9 +3,6 @@
 print("Content-Type: text/html")
 print()
 import cgi, sys, io
-import webbrowser
-
-webbrowser.get("google-chrome").open("https://donadomini.github.io/solideogloria/index.py")
 
 sys.stdout=io.TextIOWrapper(sys.stdout.detach(), encoding='utf-8')
 sys.stderr=io.TextIOWrapper(sys.stderr.detach(), encoding='utf-8')
