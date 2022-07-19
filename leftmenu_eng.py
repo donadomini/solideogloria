@@ -31,7 +31,7 @@ print('''<!doctype html>
 
        <!-- Home -->
 
-      <li align="top"><a href="index_eng.py" title="index_eng" target="_top">Home</a></li>
+      <li align="top"><a href="index_eng.html" title="index_eng" target="_top">Home</a></li>
 
 
       <!--Terms & Issues -->

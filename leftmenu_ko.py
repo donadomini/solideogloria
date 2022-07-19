@@ -32,7 +32,7 @@ print('''<!doctype html>
 
        <!-- Home -->
 
-      <li align="top"><a href="index_ko.py" title="index_ko" target="_top">홈</a></li>
+      <li align="top"><a href="index_ko.html" title="index_ko" target="_top">홈</a></li>
 
 
       <!--용어 & 이슈 -->
