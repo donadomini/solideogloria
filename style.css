@@ -1,0 +1,40 @@
+
+body{
+
+  class:"begin";
+  bgcolor:"none";
+  padding: "none";
+
+}
+table{
+
+  class:"1st";
+  border-bottom:1px solid gray;
+  border-spacing:"none";
+  bgcolor:"none";
+  padding: "none"
+  margin:0 auto;
+
+}
+
+div{
+
+  class:"2nd";
+  margin:0 10%;
+
+}
+
+
+table{
+
+  class:"3rd"
+
+}
+
+.box {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.box::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
