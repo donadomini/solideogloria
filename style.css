@@ -1,0 +1,105 @@
+
+html,
+body{
+
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+h1{
+  font-size: 60px;
+  color: blue;
+}
+
+.wrap{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+
+#box {
+  position: relative;
+  background-color: white;
+  color: white;
+  width: 600px;
+  height: 300px;
+  margin: 0; /! hidden align center
+  padding: 0; /! hidden align center
+}
+
+#hidden {
+  display: none;
+  background-color: white;
+  color: white;
+}
+
+.btn {
+  border: 0;
+  outline: none;
+  width: 60px;
+  height: 60px;
+  margin: 5px 0;
+  font-size: 15px;
+  border: 5px;
+  padding: 10px 5px;
+  background: cornflowerblue;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgb(57, 47, 49), -3px -3px 3px rgb(237, 237, 237);
+  transition: 0.3s;
+
+}
+
+.btn1:hover {
+  box-shadow: -3px -3px 3px rgb(100, 149, 237), 3px 3px 3px rgb(237, 237, 237);
+  transition: 0.3s;
+
+  background-color: rosybrown;}
+.btn2:hover {
+  box-shadow: -3px -3px 3px rgb(100, 149, 237), 3px 3px 3px rgb(237, 237, 237);
+  transition: 0.3s;
+
+  background-color: rosybrown;}
+
+.container {
+   display: grid;
+   grid-template-rows: auto;
+   grid-template-areas:
+
+         "Title"
+         "Hidden"
+         "Languages";
+
+
+   row-gap: 70px;
+   padding: 10px;
+   align-items: center;
+   align-content: end;
+
+   text-align: center;
+
+}
+
+.Title { grid-area: Title; }
+.Hidden { grid-area: Hidden; }
+.Languages { grid-area: Languages; }
+
+
+.Hidden {
+ justify-items: center;
+}
+
+.box {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.box::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}

@@ -1,0 +1,129 @@
+
+    html,
+    body {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      background-color: white;
+
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 25vw 75vw;
+      grid-template-rows: auto auto 80vh auto;
+      grid-template-areas:
+        "Header Header"
+        "Null Top_Menu"
+        "Left_Menu Main"
+        "Footer Footer";
+
+      text-align: center;
+    }
+
+
+    .Header { grid-area:  Header; }
+    .Null { grid-area:  Null; }
+    .Left_Menu { grid-area: Left_Menu; }
+    .Main { grid-area: Main; }
+    .Footer { grid-area:  Footer; }
+
+
+    .Header {
+      grid-column: 1/3;
+      width: 100vw;
+      border-bottom:1px solid gray;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      justify-items: center;
+    }
+
+
+    .Header2 {
+      width: 80vw;
+      grid-column: 1/3;
+      justify-items: center;
+    }
+
+
+    .Null {
+       margin-left: 10vw;
+       width: 15vw;
+       background-color: gainsboro;
+       border-bottom:1px solid gray;
+       border-right: 2px solid white;
+       justify-items: center;
+    }
+
+
+    .Top_Menu {
+       margin-right: 10vw;
+       width: 65vw;
+       background-color: gainsboro;
+       border-bottom:1px solid gray;
+       border-left: 2px solid white;
+       justify-items: center;
+    }
+
+    .Left_Menu {
+       width: 15vw;
+       height: 80vh;
+       border-bottom: 1px solid gray;
+       margin-right: 2px;
+       margin-left: 10vw;
+    }
+
+
+    .Main {
+       width: 65vw;
+       height: 80vh;
+       border-bottom: 1px solid gray;
+       margin-left: 2px;
+       margin-right: 10vw;
+    }
+
+
+
+    .Footer {
+       grid-column: 1/3;
+       width: 80vw;
+       margin-left: 10vw;
+       margin-right: 10vw;
+    }
+
+
+    h1 {
+      font-size: 30px;
+      color: blue;
+    }
+
+
+    .btn3 {
+
+      width: 90px;
+      height: 21px;
+      border: none;
+      border-radius: 60px;
+      outline: none;
+      background: burlywood;
+      color: black;
+      cursor: pointer;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .btn3:hover {
+      background: rosybrown;
+    }
+
+
+    .box {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+
+
+    .box::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+    }

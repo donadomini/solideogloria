@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="style_index.css">
+   <link rel="icon" type="/x-ico" href="1_icon.ico">
+
+   <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+
+   <style type="text/css">
+     a { text-decoration:none }
+   </style>
+
+   <title>Soli Deo Gloria : Post Tenebras Lux</title>
+
+
+</head>
+
+<body>
+
+      <div class="container">
+<!-- 1st line begins. -->
+
+             <div class="Header">
+
+               <h1>Post Tenebras Lux (Light After Darkness)</h1>
+
+               <div class="Header2">
+
+                 <font color="blue">Soli Deo Gloria !</font>
+                 <font color="black">Aut quis prior dedit illi et retribuetur ei, Quoniam ex ipso, et per ipsum, et in ipso sunt omnia: ipsi gloria in saecula. Amen. (Rom 11:35-36)</font>
+                 <br>
+                 <font color="blue">Glory to God alone !</font>
+                 <font color="black"> Or who hath first given to him, and it shall be recompensed unto him again? For of him, and through him, and to him, are all things: to whom be glory for ever. Amen. (Rom 11:35-36)</font>
+                 <br><br>
+
+               </div>
+
+             </div>
+
+
+<!-- 2nd line begins. -->
+
+
+             <div class="Null">
+             </div>
+
+             <div class="Top_Menu">
+
+                    <nav >
+                      <button class="btn3" onclick="window.location.href='index.php'">← E X I T</button>
+                      <button class="btn3" onclick="window.location.href='index_ko.php'">↺ Korean</button>
+                      <button class="btn3"><a href="information.html" target="content_eng">Information</button>
+                      <button class="btn3" onclick="window.location.href='#disqus_thread'">Comment</button>
+                      <button class="btn3"><a href="othersites.html" target="content_eng">Other Sites</a></button>
+                    </nav>
+
+             </div>
+
+
+<!-- 3rd line begins. -->
+
+        <!-- 드롭 다운 메뉴 루틴 시작 -->
+
+             <div class="Left_Menu">
+
+                    <iframe src="leftmenu_eng.html" name="leftmenu_eng" frameborder="no"
+                    marginwidth="" marginheight="3" width="100%" height="100%" >
+                    </iframe>
+
+
+             </div>
+
+
+             <div class="Main">
+
+                    <iframe src="content_eng.html" name="content_eng" frameborder="no"
+                    marginwidth="" marginheight="3" width="100%" height="100%" >
+                    </iframe>
+
+             </div>
+
+             <!-- 메뉴 드롭 다운 끝 -->
+
+   <!-- 4th line begins. -->
+
+             <div class="Footer">
+               <p>
+                 <div id="disqus_thread"></div>
+                 <script>
+
+                 /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                 /*
+                 var disqus_config = function () {
+                 this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                 };
+                 */
+                 (function() { // DON'T EDIT BELOW THIS LINE
+                 var d = document, s = d.createElement('script');
+                 s.src = 'https://solideogratia.disqus.com/embed.js';
+                 s.setAttribute('data-timestamp', +new Date());
+                 (d.head || d.body).appendChild(s);
+                 })();
+                 </script>
+                 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+               </p>
+             </div>
+
+
+      </div>
+
+
+     <!-- gotobottom position -->
+     <div id="scrollbottom">
+
+     <a style="display:scroll;position:fixed;bottom:30px;right:3px;" rel="nofollow"
+     href="#" title="Back to Top" style="font-size:2.0em">맨 위로↑</a>
+     <br />
+     <a style="display:scroll;position:fixed;bottom:10px;right:3px;" rel="nofollow"
+     href="#scrollbottom" title="Go to Bottom" style="font-size:2.0em">맨 아래로↓</a>
+
+     </div>
+
+</body>
+</html>
