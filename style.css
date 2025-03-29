@@ -71,14 +71,12 @@ h1{
 .container {
    display: grid;
    grid-template-rows: auto auto auto;
+   row-gap: 100px;
    grid-template-areas:
 
          "Title"
          "Hidden"
          "Languages";
-
-
-   row-gap: 50px;
 
    align-items: center;
    align-content: end;
