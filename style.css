@@ -71,7 +71,7 @@ h1{
 .container {
    display: grid;
    grid-template-rows: auto auto auto;
-   row-gap: 100px;
+   row-gap: 50px;
    grid-template-areas:
 
          "Title"
